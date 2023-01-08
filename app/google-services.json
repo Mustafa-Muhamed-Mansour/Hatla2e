@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "185713955289",
+    "project_id": "laffa-721a5",
+    "storage_bucket": "laffa-721a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185713955289:android:ed1222ec11b20fbd73c9c8",
+        "android_client_info": {
+          "package_name": "com.lafa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185713955289-odsuv05boivkt236m933gimlf5ucaeu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9ju-jhGWqyl1Ho1Jfpw_rjDgIZTzrW3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185713955289-odsuv05boivkt236m933gimlf5ucaeu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

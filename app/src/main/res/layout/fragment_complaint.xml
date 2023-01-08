@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".complaint.ComplaintFragment"
+        android:gravity="center"
+        >
+
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_17ssp"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/_5sdp"
+            />
+
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_17ssp"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_below="@id/edit_email"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Phone"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_17ssp"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/_5sdp"
+            android:inputType="phone"
+            android:layout_below="@id/edit_name"
+            />
+
+        <EditText
+            android:id="@+id/edit_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Message"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_17ssp"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_below="@id/edit_phone"
+            />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_complaint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sent the complaint"
+            android:textSize="@dimen/_20ssp"
+            android:textAllCaps="false"
+            app:backgroundTint="@null"
+            android:layout_below="@id/edit_message"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/_5sdp"
+            app:cornerRadius="@dimen/_10sdp"
+            />
+
+
+
+    </RelativeLayout>
+</layout>

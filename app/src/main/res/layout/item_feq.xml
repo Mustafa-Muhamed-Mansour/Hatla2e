@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txt_question_item_feq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Question ?"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_17ssp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_5sdp"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_answer_item_feq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Answer"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_below="@id/txt_question_item_feq"
+            android:layout_alignParentEnd="true"
+            />
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".question.QuestionFragment"
+        >
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close"
+            android:backgroundTint="@color/white"
+            app:fabSize="mini"
+            android:layout_margin="@dimen/_5sdp"
+            />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/r_v_question"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/fab_close"
+            android:layout_above="@id/linear_setting"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/_5sdp"
+            android:visibility="gone"
+            />
+
+        <ProgressBar
+            android:id="@+id/loading_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/black"
+            android:visibility="gone"
+            />
+
+
+        <RelativeLayout
+            android:id="@+id/linear_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_alignParentBottom="true"
+            android:padding="@dimen/_5sdp"
+            >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:backgroundTint="@null"
+                android:layout_margin="@dimen/_3sdp"
+                android:text="About"
+                android:textSize="@dimen/_15ssp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                app:cornerRadius="@dimen/_10sdp"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_term"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:backgroundTint="@null"
+                android:layout_margin="@dimen/_3sdp"
+                android:text="Terms"
+                android:textSize="@dimen/_15ssp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                app:cornerRadius="@dimen/_10sdp"
+                android:layout_alignParentEnd="true"
+                />
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+</layout>
