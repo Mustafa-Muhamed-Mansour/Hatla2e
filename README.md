@@ -1,11 +1,13 @@
 # You can browse products and you can also search for products in general, and you can save the product to browse later.
 
-## Kotlin : First class and official programming language for Android development.
-## Navigation component : one activity contains multiple fragments instead of creating multiple activites.
-## Retrofit : making HTTP connection with the rest API and convert meal json file to Kotlin/Java object.
-## Room : Save meals in local database.
-## MVVM & LiveData : Saperate logic code from views and save the state in case the screen configuration changes.
-## Coroutines : do some code in the background.
-## data binding : instead of inflating views manually data binding will take care of that.
-## Glide : Catch images and load them in imageView.
-## Dagger-Hilt : For dependency injection.
+
+## Built With 🛠
+
+- [Kotlin](https://kotlinlang.org/) : First class and official programming language for Android development.
+- [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) : A coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously.
+- [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android) : For dependency injection.
+- [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes.
+- [Room](https://developer.android.com/topic/libraries/architecture/room) : Used to create room db and store the data.
+- [Navigation](https://developer.android.com/guide/navigation/navigation-getting-started) : Used to navigate between fragments.
+- [Retrofit](https://github.com/square/retrofit) : Used for REST api communication.
+- [Glide](https://github.com/bumptech/glide) : Catch images and load them in imageView.
