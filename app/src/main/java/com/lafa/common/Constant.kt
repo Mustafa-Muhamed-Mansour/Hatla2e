@@ -4,7 +4,6 @@ class Constant {
 
 
     companion object {
-        const val BASE_URL = "https://student.valuxapps.com/api/"
         const val PRODUCT = "PRODUCT"
         const val PRODUCT_TABLE = "PRODUCT_TABLE"
         const val USER_PREF = "UserPref"
