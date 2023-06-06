@@ -1,5 +1,16 @@
 # You can browse products and you can also search for products in general, and you can save the product to browse later.
 
+## Built With 🛠
+
+- [Kotlin](https://kotlinlang.org/) : First class and official programming language for Android development.
+- [Navigation](https://developer.android.com/guide/navigation/navigation-getting-started) : Used to navigate between fragments.
+- [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes.
+- [Retrofit](https://github.com/square/retrofit) : Used for REST api communication.
+- [Room](https://developer.android.com/topic/libraries/architecture/room) : Used to create room db and store the data.
+- [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) : A coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously.
+- [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android) : For dependency injection.
+- [Firebase](https://firebase.google.com/docs/emulator-suite) : tools to build.
+
 
 
 <img src = "https://user-images.githubusercontent.com/53982895/213309191-b24673d2-e2e1-45cd-9445-cd0a03d044f1.png" width = "200" height = "400">  <img src = "https://user-images.githubusercontent.com/53982895/213309257-0fd5aa13-c56e-489b-9bc4-4ad95377a42b.png" width = "200" height = "400">
